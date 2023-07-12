@@ -26,6 +26,10 @@ public class Bin {
         return totalWeight;
     }
 
+    public ArrayList<Package> getPackages() {
+        return packages;
+    }
+
     public String toString() {
         String packageListString = "";
         for (Package p: packages) {
